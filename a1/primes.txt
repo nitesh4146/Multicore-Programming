@@ -1,0 +1,14 @@
+Execution Time: 61.271010
+Total number of primes found: 664579
+Sum of all primes found: 3203324994356
+Top Ten maximum primes:
+9999889
+9999901
+9999907
+9999929
+9999931
+9999937
+9999943
+9999971
+9999973
+9999991
