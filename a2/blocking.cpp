@@ -3,8 +3,8 @@
 #include <cstdlib>
 #include <pthread.h>
 using namespace std; 
-#define MAX_SIZE 10  //maximum size of the array that will store Queue. 
-#define NUM_THREADS 2
+#define MAX_SIZE 1000  //maximum size of the array that will store Queue. 
+#define NUM_THREADS 32
 
 int _random[1000];
 int A[MAX_SIZE];
@@ -23,34 +23,34 @@ void UnlockDeQ();
 class Blocking_Queue
 {
 private:
-	int front, rear; 
+	int head, tail; 
 public:
-	// Constructor - set front and rear as -1. 
-	// We are assuming that for an empty Queue, both front and rear will be -1.
+	// Constructor - set head and tail as -1. 
+	// We are assuming that for an empty Queue, both head and tail will be -1.
 	Blocking_Queue()
 	{
-		front = -1; 
-		rear = -1;
+		head = -1; 
+		tail = -1;
 	}
 
 	// To check wheter Queue is empty or not
 	bool IsEmpty()
 	{
-		return (front == -1 && rear == -1); 
+		return (head == -1 && tail == -1); 
 	}
 
 	// To check whether Queue is full or not
 	bool IsFull()
 	{
-		return (rear+1)%MAX_SIZE == front ? true : false;
+		return (tail+1)%MAX_SIZE == head ? true : false;
 	}
 
-	// Inserts an element in queue at rear end
+	// Inserts an element in queue at tail end
 	void enq(int x)
 	{
 		while(LockEnQ()!=0){};
 			if(IsFull())
-				{
+			{
 				cout<<"Error: Queue is Full!"<<endl;
 				UnlockEnQ();
 				this->Print();
@@ -58,19 +58,19 @@ public:
 			}
 			if (IsEmpty())
 			{ 
-				front = rear = 0; 
+				head = tail = 0; 
 			}
 			else
 			{
-			    rear = (rear+1)%MAX_SIZE;
+			    tail = (tail+1)%MAX_SIZE;
 			}
 		
-		A[rear] = x;
+		A[tail] = x;
 		printf("enq: %d\n", x);
 		UnlockEnQ();
 	}
 
-	// Removes an element in Queue from front end. 
+	// Removes an element in Queue from head end. 
 	void deq()
 	{
 		while(LockDeQ()!= 0){};
@@ -81,35 +81,35 @@ public:
 			UnlockDeQ();
 			return;
 		}
-		else if(front == rear ) 
+		else if(head == tail ) 
 		{
-			rear = front = -1;
+			tail = head = -1;
 			UnlockDeQ();
 		}
 		else
 		{
-			int a = A[front];
-			front = (front+1)%MAX_SIZE;
+			int a = A[head];
+			head = (head+1)%MAX_SIZE;
 			printf("deq: %d\n", a);
 			UnlockDeQ();
 		}
 	}
 	/* 
-	   Printing the elements in queue from front to rear. 
+	   Printing the elements in queue from head to tail. 
 	   This function is only to test the code. 
 	   This is not a standard function for Queue implementation. 
 	*/
 	void Print()
 	{
 		// Finding number of elements in queue  
-		int count = (rear+MAX_SIZE-front)%MAX_SIZE + 1;
+		int count = (tail+MAX_SIZE-head)%MAX_SIZE + 1;
 		printf("Queue       : ");
-		if(rear==-1 && front==-1){
+		if(tail==-1 && head==-1){
 			printf("Null");
 		}else{
 			for(int i = 0; i <count; i++)
 			{
-				int index = (front+i) % MAX_SIZE; // Index of element while travesing circularly from front
+				int index = (head+i) % MAX_SIZE; // Index of element while travesing circularly from head
 				printf("%d ", A[index]);
 			}
 		}
@@ -119,14 +119,14 @@ public:
 
 
 
-void *PrintHello(void *threadid)
+void *threadFn(void *threadid)
 {
 	long tid;
 	tid = (long)threadid;
 	int val = (int) tid;
 	printf("Welcome to thread %ld\n", tid);
 
-	for(int i=0; i<1000;i++){
+	for(int i=tid+50; ;i++){
 		if(_random[i] == 1) q.enq(val);
 		if(_random[i] == 0) q.deq();
 		val++;
@@ -164,18 +164,19 @@ int main ()
 	void* status;
 
 	//random array declaration
-	//srand(time(0));
-	for(int i=0; i<1000; i++){
-		_random[i] = rand()%2;
-		//printf("Random array: %d\n", _random[i]);
+	FILE *fp;
+    fp = fopen("/home/nitish/Workspace/a2/random_1", "r");
+	for(int t=0; t<1000; t++){
+		fscanf(fp, "%d", &_random[t]);
 	}
+	fclose(fp);
 
 	//thread creation and locks initialization
 	pthread_attr_init(&attr);
 	pthread_mutex_init(&Elock, NULL);
 	pthread_mutex_init(&Dlock, NULL);
 	for( i=0; i < NUM_THREADS; i++ ){
-		rc = pthread_create(&threads[i], NULL, PrintHello, (void*) i);
+		rc = pthread_create(&threads[i], NULL, threadFn, (void*) i);
 		if (rc){
 			cout << "Error:unable to create thread," << rc << endl;
 			exit(-1);
@@ -189,7 +190,7 @@ int main ()
 			printf("ERROR: Return from pthread_join() is %d\n", rc);
 		}
 	}
-	q.Print();
+	//q.Print();
 
 	return 0;
 }

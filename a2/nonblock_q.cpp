@@ -6,7 +6,7 @@
 #include <ctime>
 using namespace std; 
 #define MAX_SIZE 1000000  //maximum size of the array that will store Queue. 
-#define NUM_THREADS 1   //Total number of threads
+#define NUM_THREADS 32   //Total number of threads
 
 int _random[MAX_SIZE];  //Pre-generated array of ramdom numbers
 int A[MAX_SIZE];    //Queue object
@@ -16,7 +16,6 @@ int test_bench;
 
 class NonBlocking_Queue
 {
-
     atomic<int> head;
     atomic<int> tail;
 public:
@@ -168,6 +167,7 @@ int main ()
     clock_t start, end;
 
     //Select test bench to be executed
+    printf("Number of Threads : %d\n", NUM_THREADS);
     printf("Select the Test Bench Ratio:\n(1) enq:deq = 1:1\n(2) enq:deq = 2:1\n(3) enq:deq = 1:2\n\nYour Selction: ");
     cin>>test_bench;
 

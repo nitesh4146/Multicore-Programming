@@ -1,0 +1,251 @@
+nitish@nitish-Inspiron-3542 ~ $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+g++: error: blocking2.cpp: No such file or directory
+g++: fatal error: no input files
+compilation terminated.
+nitish@nitish-Inspiron-3542 ~ $ cd Workspace/a2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Welcome to thread 0
+Dequeuing... 
+Welcome to thread 2
+Welcome to thread 3
+Welcome to thread 1
+Error: Queue is Empty!
+Dequeuing... 
+Dequeuing... 
+Error: Queue is Empty!
+Dequeuing... 
+Error: Queue is Empty!
+Dequeuing... 
+Error: Queue is Empty!
+Dequeuing... 
+Error: Queue is Empty!
+Execution Time: 1233.000000 msec or 1233416 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Welcome to thread 0
+Welcome to thread 1
+Welcome to thread 2
+Welcome to thread 3
+Execution Time: 1014.000000 msec or 1014117 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1055.000000 msec or 1055257 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1143.000000 msec or 1143244 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 954.000000 msec or 954887 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1188.000000 msec or 1188526 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1141.000000 msec or 1141590 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1064.000000 msec or 1064640 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1123.000000 msec or 1123242 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1011.000000 msec or 1011024 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1132.000000 msec or 1132832 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1194.000000 msec or 1194560 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1141.000000 msec or 1141198 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1194.000000 msec or 1194098 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1187.000000 msec or 1187266 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1160.000000 msec or 1160629 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1255.000000 msec or 1255242 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1104.000000 msec or 1104050 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1188.000000 msec or 1188328 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1167.000000 msec or 1167432 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1168.000000 msec or 1168548 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1191.000000 msec or 1191671 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+deq: 6
+deq: 15
+deq: 16
+deq: 17
+deq: 18
+deq: 19
+Execution Time: 1221.000000 msec or 1221975 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+
+^Z
+[1]+  Stopped                 ./blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1258.000000 msec or 1258632 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1183.000000 msec or 1183216 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1245.000000 msec or 1245089 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1249.000000 msec or 1249703 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1219.000000 msec or 1219358 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1191.000000 msec or 1191127 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1217.000000 msec or 1217910 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1307.000000 msec or 1307587 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1193.000000 msec or 1193163 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 968.000000 msec or 968090 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1035.000000 msec or 1035068 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1160.000000 msec or 1160356 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 blocking2.cpp -pthread -o blocking2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1227.000000 msec or 1227894 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1132.000000 msec or 1132585 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1204.000000 msec or 1204310 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1275.000000 msec or 1275863 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1256.000000 msec or 1256753 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1213.000000 msec or 1213434 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1268.000000 msec or 1268024 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1201.000000 msec or 1201171 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1172.000000 msec or 1172901 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1151.000000 msec or 1151202 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./blocking2
+Execution Time: 1237.000000 msec or 1237376 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 non_block2.cpp -pthread -o non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 921.000000 msec or 921757 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 738.000000 msec or 738844 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^[[A
+^Z
+[2]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 939.000000 msec or 939672 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[3]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[4]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 843.000000 msec or 843916 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 843.000000 msec or 843955 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 887.000000 msec or 887495 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 814.000000 msec or 814366 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 851.000000 msec or 851155 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[5]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 761.000000 msec or 761384 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 non_block2.cpp -pthread -o non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2Execution Time: 50.000000 msec or 50930 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 86.000000 msec or 86709 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 57.000000 msec or 57793 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 80.000000 msec or 80680 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 76.000000 msec or 76642 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 60.000000 msec or 60569 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 56.000000 msec or 56353 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 75.000000 msec or 75460 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 55.000000 msec or 55647 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 79.000000 msec or 79004 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 80.000000 msec or 80720 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 50.000000 msec or 50887 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 non_block2.cpp -pthread -o non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2Execution Time: 1057.000000 msec or 1057164 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 883.000000 msec or 883071 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^[[A
+^Z
+[6]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2Execution Time: 875.000000 msec or 875554 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 865.000000 msec or 865604 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 925.000000 msec or 925244 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 916.000000 msec or 916340 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1020.000000 msec or 1020073 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 961.000000 msec or 961996 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[7]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 non_block2.cpp -pthread -o non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2^Z
+[8]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[9]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1424.000000 msec or 1424497 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[10]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1212.000000 msec or 1212224 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1302.000000 msec or 1302854 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[11]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1214.000000 msec or 1214930 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1252.000000 msec or 1252546 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 non_block2.cpp -pthread -o non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2Execution Time: 1008.000000 msec or 1008114 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[12]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+^Z
+[13]+  Stopped                 ./non_block2
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1485.000000 msec or 1485408 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1917.000000 msec or 1917634 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 1416.000000 msec or 1416682 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./non_block2
+Execution Time: 982.000000 msec or 982908 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ 

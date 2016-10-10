@@ -1,0 +1,11 @@
+#include <SFML/System.hpp>
+#include <iostream>
+
+int main() {
+    sf::Clock clock;
+    while (clock.GetElapsedTime() < 5.0f) {
+        std::cout << Clock.GetElapsedTime();
+        sf::Sleep(0.5f);
+    }
+    return 0;
+}

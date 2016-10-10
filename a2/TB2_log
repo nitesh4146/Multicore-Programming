@@ -1,0 +1,910 @@
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 52.000000 msec or 52243 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 51.000000 msec or 51961 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 54.000000 msec or 54119 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 54.000000 msec or 54094 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 471.000000 msec or 471966 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 493.000000 msec or 493810 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 459.000000 msec or 459062 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 453.000000 msec or 453993 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 818.000000 msec or 818016 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 839.000000 msec or 839524 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 878.000000 msec or 878061 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 849.000000 msec or 849534 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 889.000000 msec or 889023 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 879.000000 msec or 879913 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 868.000000 msec or 868040 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 529.000000 msec or 529725 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 829.000000 msec or 829858 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: ^[[A
+Execution Time: 840.000000 msec or 840307 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 866.000000 msec or 866885 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 877.000000 msec or 877514 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 912.000000 msec or 912391 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 895.000000 msec or 895266 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 860.000000 msec or 860963 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 872.000000 msec or 872843 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 887.000000 msec or 887891 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 854.000000 msec or 854243 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 858.000000 msec or 858125 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 892.000000 msec or 892140 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 870.000000 msec or 870366 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 901.000000 msec or 901774 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 877.000000 msec or 877926 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 835.000000 msec or 835750 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./block_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 844.000000 msec or 844242 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 block_q.cpp -pthread -o block_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 nonblock_q.cpp -pthread -o nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 69.000000 msec or 69172 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 62.000000 msec or 62204 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 66.000000 msec or 66788 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 64.000000 msec or 64450 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 nonblock_q.cpp -pthread -o nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_qNumber of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 471.000000 msec or 471016 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 469.000000 msec or 469479 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 516.000000 msec or 516643 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 492.000000 msec or 492972 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 nonblock_q.cpp -pthread -o nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_qNumber of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 747.000000 msec or 747041 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 720.000000 msec or 720569 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 712.000000 msec or 712642 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 724.000000 msec or 724920 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 736.000000 msec or 736573 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 nonblock_q.cpp -pthread -o nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_qNumber of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 726.000000 msec or 726900 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 754.000000 msec or 754645 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 721.000000 msec or 721548 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+^Z
+[7]+  Stopped                 ./nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 741.000000 msec or 741131 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 nonblock_q.cpp -pthread -o nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_qNumber of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 731.000000 msec or 731742 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 725.000000 msec or 725281 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 776.000000 msec or 776399 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 821.000000 msec or 821943 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 787.000000 msec or 787688 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 903.000000 msec or 903861 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 707.000000 msec or 707294 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 nonblock_q.cpp -pthread -o nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_qNumber of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 678.000000 msec or 678978 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 815.000000 msec or 815477 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 939.000000 msec or 939639 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 700.000000 msec or 700424 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 714.000000 msec or 714739 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 458.000000 msec or 458700 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 nonblock_q.cpp -pthread -o nonblock_q
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_qNumber of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 737.000000 msec or 737915 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 1290.000000 msec or 1290914 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 1601.000000 msec or 1601194 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 708.000000 msec or 708591 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 714.000000 msec or 714741 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./nonblock_q
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 717.000000 msec or 717374 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 intel_tbb.cpp -pthread -ltbb -o intel_tbb
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 119.000000 msec or 119665 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 121.000000 msec or 121774 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 119.000000 msec or 119577 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 1
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 120.000000 msec or 120382 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 intel_tbb.cpp -pthread -ltbb -o intel_tbb
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 383.000000 msec or 383291 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 373.000000 msec or 373411 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 386.000000 msec or 386946 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 3
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 382.000000 msec or 382207 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 intel_tbb.cpp -pthread -ltbb -o intel_tbb
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2   
+Execution Time: 473.000000 msec or 473627 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 495.000000 msec or 495980 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 463.000000 msec or 463653 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 4
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 484.000000 msec or 484343 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 intel_tbb.cpp -pthread -ltbb -o intel_tbb
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2   
+Execution Time: 836.000000 msec or 836530 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 916.000000 msec or 916083 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 829.000000 msec or 829415 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 778.000000 msec or 778492 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 8
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 791.000000 msec or 791302 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 intel_tbb.cpp -pthread -ltbb -o intel_tbb
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 1428.000000 msec or 1428860 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+^[[AExecution Time: 1595.000000 msec or 1595871 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 1394.000000 msec or 1394778 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 16
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 1487.000000 msec or 1487280 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 intel_tbb.cpp -pthread -ltbb -o intel_tbb
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+^[[AExecution Time: 2159.000000 msec or 2159997 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 2119.000000 msec or 2119765 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 2097.000000 msec or 2097949 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 24
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 1718.000000 msec or 1718642 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ g++ -std=c++11 intel_tbb.cpp -pthread -ltbb -o intel_tbb
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+^[[AExecution Time: 2222.000000 msec or 2222970 usec
+
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 1932.000000 msec or 1932013 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 2817.000000 msec or 2817632 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ ./intel_tbb
+Number of Threads : 32
+Select the Test Bench Ratio:
+(1) enq:deq = 1:1
+(2) enq:deq = 2:1
+(3) enq:deq = 1:2
+
+Your Selction: 2
+Execution Time: 2563.000000 msec or 2563720 usec
+nitish@nitish-Inspiron-3542 ~/Workspace/a2 $ 
