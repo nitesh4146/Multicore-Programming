@@ -3,8 +3,8 @@
 #include <cstdlib>
 #include <pthread.h>
 using namespace std; 
-#define MAX_SIZE 1000000  //maximum size of the array that will store Queue. 
-#define NUM_THREADS 32	//Total number of threads
+#define MAX_SIZE 10  //maximum size of the array that will store Queue. 
+#define NUM_THREADS 1	//Total number of threads
 
 int _random[MAX_SIZE];	//Pre-generated array of ramdom numbers
 int A[MAX_SIZE];	//Queue object
@@ -55,7 +55,7 @@ public:
 			{
 			    tail = (tail+1)%MAX_SIZE;
 			}
-		
+		printf("Enq: %d, Head: %d, Tail: %d\n", x, head, tail);
 		A[tail] = x;
 		
 		UnlockEnQ();
@@ -68,19 +68,21 @@ public:
 		//printf("Dequeuing... \n");
 		if((head == -1 && tail == -1))
 		{
-			//cout<<"Error: Queue is Empty!"<<endl;
+			cout<<"Deq: Empty!, Head: "<<head<<", Tail: "<<tail<<endl;
 			UnlockDeQ();
 			return;
 		}
 		else if(head == tail ) 
 		{
 			tail = head = -1;
+			printf("Dequeued last element!\n");
 			UnlockDeQ();
 		}
 		else
 		{
 			int a = A[head];
 			head = (head+1)%MAX_SIZE;
+			printf("Deq: %d, Head: %d, Tail: %d\n", a, head, tail);
 			//printf("deq: %d\n", a);
 			UnlockDeQ();
 		}
